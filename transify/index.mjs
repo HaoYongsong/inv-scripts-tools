@@ -8,7 +8,11 @@ import fs from "fs-extra";
 import _ from "lodash";
 import parser from "@babel/parser";
 import { getProjectFiles } from "./project.mjs";
-import { getRemoteLanguages, deleteRemoteLanguage } from "./remote.mjs";
+import {
+  getRemoteLanguages,
+  deleteRemoteLanguage,
+  getDeletedLanguages,
+} from "./remote.mjs";
 import { traverse } from "./parser.mjs";
 
 const Config = {
@@ -212,17 +216,8 @@ async function main() {
     { spaces: 2 }
   );
 
-  await getRemoteLanguages(Config.region, true, true).then((items) => {
-    const deleted = items.filter((item) => item.is_deleted);
-    console.log("🚀 ~ 回归线上已经删除的 ~ deleted:", deleted.length);
-    fs.writeJSONSync(
-      `${Config.dir}/deleted.json`,
-      {
-        deleted,
-      },
-      { spaces: 2 }
-    );
-  });
+  const deleted = await getDeletedLanguages(Config.region);
+  console.log("🚀 ~ main ~ deleted:", deleted.length);
 }
 
 main();

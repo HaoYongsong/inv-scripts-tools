@@ -1,14 +1,6 @@
 {
   "removeKeys": [
     {
-      "id": 2636589,
-      "key": "asdfasdf"
-    },
-    {
-      "id": 2636586,
-      "key": "123111111"
-    },
-    {
       "id": 2636021,
       "key": "invest.fc.chasing_return"
     },
@@ -27,10 +19,6 @@
     {
       "id": 2631157,
       "key": "investment.foreigner_not_allowed.content"
-    },
-    {
-      "id": 2631156,
-      "key": "investment.foreigner_not_allowed.title"
     },
     {
       "id": 2630844,
@@ -171,262 +159,6 @@
     {
       "id": 2593209,
       "key": "invest.common.fund_market_pages__shopee"
-    },
-    {
-      "id": 2579822,
-      "key": "fund_market.monthly_earnings_breakdown__MY"
-    },
-    {
-      "id": 2579821,
-      "key": "fund_market.yesterday_earnings__MY"
-    },
-    {
-      "id": 2579820,
-      "key": "fund_market.earnings_percent__MY"
-    },
-    {
-      "id": 2579819,
-      "key": "fund_market.earning_details__MY"
-    },
-    {
-      "id": 2579818,
-      "key": "fund_market.daily_earnings_breakdown__MY"
-    },
-    {
-      "id": 2579817,
-      "key": "easy_invest.yesterday_earnings__MY"
-    },
-    {
-      "id": 2579816,
-      "key": "fund_market.fund_market__MY"
-    },
-    {
-      "id": 2579815,
-      "key": "easy_invest__MY"
-    },
-    {
-      "id": 2579813,
-      "key": "fund_market.no_earnings_no_trading_day__MY"
-    },
-    {
-      "id": 2579812,
-      "key": "fund_market.market_filter_min_investment.3__MY"
-    },
-    {
-      "id": 2579811,
-      "key": "easy_invest.today_earning__MY"
-    },
-    {
-      "id": 2579809,
-      "key": "fund_market.today_earnings__MY"
-    },
-    {
-      "id": 2579805,
-      "key": "fund_market.cumulative_earnings__MY"
-    },
-    {
-      "id": 2579804,
-      "key": "easy_invest.tips_reference_only_reference__MY"
-    },
-    {
-      "id": 2579803,
-      "key": "easy_invest.home.new_card_subtitle__MY"
-    },
-    {
-      "id": 2579802,
-      "key": "invest.customer_service_phone__MY"
-    },
-    {
-      "id": 2579801,
-      "key": "fund_market.earning_details.no_earnings_tips__MY"
-    },
-    {
-      "id": 2579800,
-      "key": "fund_market.current_earnings__MY"
-    },
-    {
-      "id": 2579799,
-      "key": "easy_invest.withdraw_timeline_normal_tips1__MY"
-    },
-    {
-      "id": 2579798,
-      "key": "easy_invest.tips_maintain_balance__MY"
-    },
-    {
-      "id": 2579797,
-      "key": "easy_invest.investment_manager__MY"
-    },
-    {
-      "id": 2579796,
-      "key": "invest.user_delete_popup.title__MY"
-    },
-    {
-      "id": 2579795,
-      "key": "fund_market.market_filter_min_investment.2__MY"
-    },
-    {
-      "id": 2579794,
-      "key": "fund_market.market_filter_min_investment.1__MY"
-    },
-    {
-      "id": 2579793,
-      "key": "invest.kyc.step_3__MY"
-    },
-    {
-      "id": 2579792,
-      "key": "invest.kyc.step_1__MY"
-    },
-    {
-      "id": 2579810,
-      "key": "easy_invest.home.new_card_title__MY"
-    },
-    {
-      "id": 2579791,
-      "key": "fund_market.market_filter_min_investment.4__MY"
-    },
-    {
-      "id": 2579790,
-      "key": "invest.kyc.step_2__MY"
-    },
-    {
-      "id": 2579789,
-      "key": "fund_market.earnings__MY"
-    },
-    {
-      "id": 2579788,
-      "key": "fund_market.cumulative_earnings_breakdown__MY"
-    },
-    {
-      "id": 2579786,
-      "key": "fund_market.fund_details.historical_performance__MY"
-    },
-    {
-      "id": 2572167,
-      "key": "fund_market.fund_details.historical_performance__MY"
-    },
-    {
-      "id": 2572525,
-      "key": "invest.user_delete_popup.title__MY"
-    },
-    {
-      "id": 2572347,
-      "key": "invest.kyc.step_3__MY"
-    },
-    {
-      "id": 2572346,
-      "key": "invest.kyc.step_2__MY"
-    },
-    {
-      "id": 2572345,
-      "key": "invest.kyc.step_1__MY"
-    },
-    {
-      "id": 2571363,
-      "key": "invest.customer_service_phone__MY"
-    },
-    {
-      "id": 2572558,
-      "key": "fund_market.yesterday_earnings__MY"
-    },
-    {
-      "id": 2572546,
-      "key": "fund_market.today_earnings__MY"
-    },
-    {
-      "id": 2572578,
-      "key": "fund_market.fund_market__MY"
-    },
-    {
-      "id": 2572551,
-      "key": "fund_market.no_earnings_no_trading_day__MY"
-    },
-    {
-      "id": 2572549,
-      "key": "fund_market.earning_details__MY"
-    },
-    {
-      "id": 2572548,
-      "key": "fund_market.earning_details.no_earnings_tips__MY"
-    },
-    {
-      "id": 2572547,
-      "key": "easy_invest.yesterday_earnings__MY"
-    },
-    {
-      "id": 2572011,
-      "key": "fund_market.market_filter_min_investment.4__MY"
-    },
-    {
-      "id": 2572010,
-      "key": "fund_market.market_filter_min_investment.3__MY"
-    },
-    {
-      "id": 2572009,
-      "key": "fund_market.market_filter_min_investment.2__MY"
-    },
-    {
-      "id": 2572008,
-      "key": "fund_market.market_filter_min_investment.1__MY"
-    },
-    {
-      "id": 2571236,
-      "key": "easy_invest.withdraw_timeline_normal_tips1__MY"
-    },
-    {
-      "id": 2571220,
-      "key": "easy_invest.investment_manager__MY"
-    },
-    {
-      "id": 2571217,
-      "key": "easy_invest.tips_reference_only_reference__MY"
-    },
-    {
-      "id": 2571216,
-      "key": "easy_invest.tips_maintain_balance__MY"
-    },
-    {
-      "id": 2571093,
-      "key": "easy_invest.home.new_card_subtitle__MY"
-    },
-    {
-      "id": 2571092,
-      "key": "easy_invest.home.new_card_title__MY"
-    },
-    {
-      "id": 2571091,
-      "key": "easy_invest__MY"
-    },
-    {
-      "id": 2572221,
-      "key": "fund_market.monthly_earnings_breakdown__MY"
-    },
-    {
-      "id": 2572223,
-      "key": "fund_market.cumulative_earnings_breakdown__MY"
-    },
-    {
-      "id": 2572222,
-      "key": "fund_market.daily_earnings_breakdown__MY"
-    },
-    {
-      "id": 2572220,
-      "key": "fund_market.cumulative_earnings__MY"
-    },
-    {
-      "id": 2572219,
-      "key": "fund_market.earnings__MY"
-    },
-    {
-      "id": 2572216,
-      "key": "fund_market.earnings_percent__MY"
-    },
-    {
-      "id": 2572218,
-      "key": "fund_market.current_earnings__MY"
-    },
-    {
-      "id": 2572217,
-      "key": "easy_invest.today_earning__MY"
     },
     {
       "id": 2571591,
@@ -2453,68 +2185,8 @@
       "key": "easy_invest.tips_maintain_balance"
     },
     {
-      "id": 2572184,
-      "key": "fund_market.home.new_card_desc.3__MY"
-    },
-    {
-      "id": 2572183,
-      "key": "fund_market.home.new_card_desc.2__MY"
-    },
-    {
-      "id": 2572182,
-      "key": "fund_market.home.new_card_desc.1__MY"
-    },
-    {
-      "id": 2572181,
-      "key": "fund_market.home.new_card_title.3__MY"
-    },
-    {
-      "id": 2572180,
-      "key": "fund_market.home.new_card_title.2__MY"
-    },
-    {
-      "id": 2572179,
-      "key": "fund_market.home.new_card_title.1__MY"
-    },
-    {
       "id": 2571856,
       "key": "fund_market.home.new_card_title.1"
-    },
-    {
-      "id": 2572171,
-      "key": "fund_market.fund_detail_more.asset_allocation__MY"
-    },
-    {
-      "id": 2572170,
-      "key": "easy_invest.kyc.dialog.save_draft__MY"
-    },
-    {
-      "id": 2572168,
-      "key": "fund_market.fund_details.dividend_distribution__MY"
-    },
-    {
-      "id": 2572154,
-      "key": "fund_market.congratulation.content__MY"
-    },
-    {
-      "id": 2572153,
-      "key": "easy_invest.congratulation_active.content__MY"
-    },
-    {
-      "id": 2572145,
-      "key": "fund_market.fund_detail_more.funds_delivery__MY"
-    },
-    {
-      "id": 2572144,
-      "key": "fund_market.fund_detail_more.withdraw_timeline_normal_tips1__MY"
-    },
-    {
-      "id": 2572133,
-      "key": "fund_market.listing.aum__MY"
-    },
-    {
-      "id": 2571259,
-      "key": "easy_invest.balance.tips3__MY"
     },
     {
       "id": 2570437,
@@ -2525,72 +2197,8 @@
       "key": "easy_invest.balance.tips2"
     },
     {
-      "id": 2571258,
-      "key": "easy_invest.balance.tips2__MY"
-    },
-    {
-      "id": 2571257,
-      "key": "easy_invest.balance.tips1__MY"
-    },
-    {
       "id": 2570974,
       "key": "easy_invest.balance.tips1"
-    },
-    {
-      "id": 2571256,
-      "key": "easy_invest.withdraw_timeline_instant_tips1__MY"
-    },
-    {
-      "id": 2571255,
-      "key": "easy_invest.withdraw_timeline_instant__MY"
-    },
-    {
-      "id": 2571254,
-      "key": "easy_invest.funds_delivery__MY"
-    },
-    {
-      "id": 2571253,
-      "key": "easy_invest.withdraw_confirmation__MY"
-    },
-    {
-      "id": 2571252,
-      "key": "easy_invest.withdraw_submission__MY"
-    },
-    {
-      "id": 2571251,
-      "key": "easy_invest.earning_receiving__MY"
-    },
-    {
-      "id": 2571250,
-      "key": "easy_invest.withdraw_timeline_normal__MY"
-    },
-    {
-      "id": 2571249,
-      "key": "easy_invest.topup_timeline__MY"
-    },
-    {
-      "id": 2571248,
-      "key": "easy_invest.funds_delivery_date__MY"
-    },
-    {
-      "id": 2571247,
-      "key": "easy_invest.withdraw_confirmation_date__MY"
-    },
-    {
-      "id": 2571246,
-      "key": "easy_invest.withdraw_submission_date__MY"
-    },
-    {
-      "id": 2571245,
-      "key": "easy_invest.earning_receiving_date__MY"
-    },
-    {
-      "id": 2571244,
-      "key": "easy_invest.topup_confirmation_date__MY"
-    },
-    {
-      "id": 2571243,
-      "key": "easy_invest.top_up_submission_date__MY"
     },
     {
       "id": 2571231,
@@ -3067,14 +2675,6 @@
     {
       "id": 2571980,
       "key": "topup"
-    },
-    {
-      "id": 2570082,
-      "key": "sharia"
-    },
-    {
-      "id": 2570080,
-      "key": "test.test"
     }
   ]
 }

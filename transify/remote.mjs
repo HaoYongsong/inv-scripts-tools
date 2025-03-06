@@ -52,6 +52,20 @@ export async function getRemoteLanguages(
   return data?.data?.items;
 }
 
+export async function getDeletedLanguages(region) {
+  const { data } = await axios.get(`${TRANSIFY_URL}${Region[region]}`, {
+    headers: { Authorization },
+    params: { include_deleted: "true" },
+  });
+  const deleted = data?.data?.items.filter((item) => item.is_deleted);
+
+  const url = `./remote/${Region[region]}`;
+  fs.ensureDirSync(url);
+  fs.writeJSONSync(`${url}/languages.deleted.json`, { deleted }, { spaces: 2 });
+
+  return deleted;
+}
+
 export async function deleteRemoteLanguage(region, item) {
   console.log("正在删除 Transify 平台数据", region, item);
 
