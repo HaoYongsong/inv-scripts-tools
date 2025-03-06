@@ -191,7 +191,11 @@ async function main() {
     "FILE CONTENT 纯文本匹配 (不准确，可能是备注，或者变量等等)",
     checkSet.size
   );
-  // console.log(Array.from(checkSet));
+  fs.writeJSONSync(
+    `${Config.dir}/checkKeys.json`,
+    { checkKeys: Array.from(checkSet) },
+    { spaces: 2 }
+  );
 
   console.log("\r\n======= 最终删除 ======");
 
