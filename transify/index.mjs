@@ -9,11 +9,12 @@ import _ from "lodash";
 import parser from "@babel/parser";
 import { getProjectFiles } from "./project.mjs";
 import { getRemoteLanguages, deleteRemoteLanguage } from "./remote.mjs";
+import { traverse } from "./parser.mjs";
 
 const Config = {
   region: "MY",
   includeDeleted: false,
-  remote: true,
+  remote: false,
   dir: "./dist-my",
 };
 
@@ -99,75 +100,10 @@ async function fileResolve(file) {
   });
 
   // 遍历 AST
-  function traverse(node) {
-    // 检查是否是函数调用
-    if (node.type === "CallExpression") {
-      // 检查 transifyOptions.tUpper('xxx') 调用
-      if (
-        node.callee.type === "MemberExpression" &&
-        node.callee.object.name === "transifyOptions" &&
-        node.callee.property.name === "tUpper" &&
-        node.arguments.length > 0
-      ) {
-        push({
-          type: "transifyOptions.tUpper",
-          value: node.arguments[0].value,
-          loc: node.loc,
-          file,
-        });
-      }
-      // 检查 transifyOptions.i18n.t('xxx') 调用
-      if (
-        node.callee.type === "MemberExpression" &&
-        node.callee.object.type === "MemberExpression" &&
-        node.callee.object.object.name === "transifyOptions" &&
-        node.callee.object.property.name === "i18n" &&
-        node.callee.property.name === "t" &&
-        node.arguments.length > 0
-      ) {
-        push({
-          type: "transifyOptions.i18n.t",
-          value: node.arguments[0].value,
-          loc: node.loc,
-          file,
-        });
-      }
 
-      // 检查 tUpper('xx') 调用
-      if (node.callee.name === "tUpper" && node.arguments.length > 0) {
-        push({
-          type: "tUpper",
-          value: node.arguments[0].value,
-          loc: node.loc,
-          file,
-        });
-      }
-
-      // 检查 i18n.t('xxx') 调用
-      if (
-        node.callee.type === "MemberExpression" &&
-        node.callee.object.name === "i18n" &&
-        node.callee.property.name === "t" &&
-        node.arguments.length > 0
-      ) {
-        push({
-          type: "i18n.t",
-          value: node.arguments[0].value,
-          loc: node.loc,
-          file,
-        });
-      }
-    }
-
-    // 递归遍历所有子节点
-    for (const key in node) {
-      if (node[key] && typeof node[key] === "object") {
-        traverse(node[key]);
-      }
-    }
-  }
-
-  traverse(ast.program);
+  traverse(ast.program, (v) => {
+    return push({ ...v, file });
+  });
 }
 
 async function main() {
@@ -219,7 +155,12 @@ async function main() {
     .filter((item) => {
       return !excludesKeys.some((key) => item.key.includes(key));
     });
-  console.log("🚀 ~ 需要移除", removeKeys.length);
+
+  console.log(
+    `🚀 ~ 需要移除: removeKeys(${removeKeys.length}) = Ast(${i18nSet.size}) - excludes)`,
+    removeKeys.length
+  );
+
   fs.writeJSONSync(
     `${Config.dir}/removeKeys.json`,
     { removeKeys },
@@ -231,7 +172,7 @@ async function main() {
     { spaces: 2 }
   );
 
-  console.log("\r\n======= 移除文件复查 ======");
+  console.log("\r\n======= 移除文件复查(removeKeys 纯文本复查) ======");
 
   const checkKeys = removeKeys.map((item) => item.key);
   const checkSet = new Set();
@@ -246,13 +187,19 @@ async function main() {
       });
   }
 
-  console.log(checkSet.size);
+  console.log(
+    "FILE CONTENT 纯文本匹配 (不准确，可能是备注，或者变量等等)",
+    checkSet.size
+  );
   // console.log(Array.from(checkSet));
 
   console.log("\r\n======= 最终删除 ======");
 
   const finallyKeys = removeKeys.filter((item) => !checkSet.has(item.key));
-  console.log("🚀 ~ finallyKeys:", finallyKeys.length);
+  console.log(
+    `🚀 ~ finallyKeys(${finallyKeys.length}) = removeKeys(${removeKeys.length}) - checkKeys(${checkSet.size})`,
+    finallyKeys.length
+  );
   fs.writeJSONSync(
     `${Config.dir}/finallyKeys.simple.json`,
     {
