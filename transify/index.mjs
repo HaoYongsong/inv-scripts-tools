@@ -211,6 +211,18 @@ async function main() {
     },
     { spaces: 2 }
   );
+
+  await getRemoteLanguages(Config.region, true, true).then((items) => {
+    const deleted = items.filter((item) => item.is_deleted);
+    console.log("🚀 ~ 回归线上已经删除的 ~ deleted:", deleted.length);
+    fs.writeJSONSync(
+      `${Config.dir}/deleted.json`,
+      {
+        deleted,
+      },
+      { spaces: 2 }
+    );
+  });
 }
 
 main();
