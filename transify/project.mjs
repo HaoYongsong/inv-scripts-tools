@@ -1,7 +1,8 @@
-const glob = require("glob");
-const path = require("path");
+import glob from "glob";
+import path from "path";
+import fs from "fs-extra";
 
-function getFiles(url) {
+export function getFiles(url) {
   return new Promise((resolve, reject) => {
     glob(url, (err, files) => {
       if (err) {
@@ -24,7 +25,7 @@ function getFiles(url) {
   });
 }
 
-async function getProjectFiles() {
+export async function getProjectFiles() {
   const files = await Promise.all([
     getFiles(`/Users/yongsong.hao/Documents/shopee/rn-investment/src/**/*`),
     getFiles(
@@ -34,7 +35,3 @@ async function getProjectFiles() {
 
   return files.flat();
 }
-
-module.exports = {
-  getProjectFiles,
-};

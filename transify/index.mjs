@@ -1,8 +1,14 @@
-const fs = require("fs-extra");
-const parser = require("@babel/parser");
-const { getRemoteLanguages, deleteRemoteLanguage } = require("./remote");
-const _ = require("lodash");
-const { getProjectFiles } = require("./project");
+// const fs = require("fs-extra");
+// const parser = require("@babel/parser");
+// const { getRemoteLanguages, deleteRemoteLanguage } = require("./remote");
+// const _ = require("lodash");
+// const { getProjectFiles } = require("./project");
+
+import fs from "fs-extra";
+import _ from "lodash";
+import parser from "@babel/parser";
+import { getProjectFiles } from "./project.mjs";
+import { getRemoteLanguages, deleteRemoteLanguage } from "./remote.mjs";
 
 const Config = {
   region: "MY",

@@ -1,19 +1,27 @@
-const axios = require("axios");
-const fs = require("fs-extra");
+import fs from "fs-extra";
+import axios from "axios";
 
-const Authorization = fs.readFileSync(
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+// 获取当前模块的文件路径
+const __filename = fileURLToPath(import.meta.url);
+// 获取当前模块所在的目录路径
+const __dirname = dirname(__filename);
+
+export const Authorization = fs.readFileSync(
   __dirname + "/Authorization.txt",
   "utf-8"
 );
 
-const Region = {
+export const Region = {
   ID: "/api/v1/projects/1577/resources/3646/entries",
   MY: "/api/v1/projects/1577/resources/5750/entries",
 };
 
-const TRANSIFY_URL = "https://transify.sea.com";
+export const TRANSIFY_URL = "https://transify.sea.com";
 
-async function getRemoteLanguages(
+export async function getRemoteLanguages(
   region,
   include_deleted = false,
   remote = false
@@ -44,7 +52,7 @@ async function getRemoteLanguages(
   return data?.data?.items;
 }
 
-async function deleteRemoteLanguage(region, item) {
+export async function deleteRemoteLanguage(region, item) {
   console.log("正在删除 Transify 平台数据", region, item);
 
   const { data } = await axios.delete(
@@ -55,9 +63,3 @@ async function deleteRemoteLanguage(region, item) {
 
   // console.log("Transify 平台删除数量", data?.data?.items?.length);
 }
-
-module.exports = {
-  Region,
-  getRemoteLanguages,
-  deleteRemoteLanguage,
-};
