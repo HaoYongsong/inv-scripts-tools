@@ -1,0 +1,2680 @@
+{
+  "removeKeys": [
+    {
+      "id": 2636021,
+      "key": "invest.fc.chasing_return"
+    },
+    {
+      "id": 2636018,
+      "key": "invest.fc.stable_return"
+    },
+    {
+      "id": 2636017,
+      "key": "invest.fc.recommendation_for_you"
+    },
+    {
+      "id": 2631458,
+      "key": "invest.fc.past_three_months_return"
+    },
+    {
+      "id": 2631157,
+      "key": "investment.foreigner_not_allowed.content"
+    },
+    {
+      "id": 2630844,
+      "key": "investment.please_update_your_profile.update_my_profile"
+    },
+    {
+      "id": 2630843,
+      "key": "investment.please_update_your_profile.content"
+    },
+    {
+      "id": 2630842,
+      "key": "investment.please_update_your_profile.title"
+    },
+    {
+      "id": 2621420,
+      "key": "investment.einvoice.refunded"
+    },
+    {
+      "id": 2620905,
+      "key": "investment.monthly_statement.title"
+    },
+    {
+      "id": 2620904,
+      "key": "investment.monthly_statement.no"
+    },
+    {
+      "id": 2620878,
+      "key": "invest.account_setting.monthly_statement"
+    },
+    {
+      "id": 2620873,
+      "key": "invest.account_setting.einvoice"
+    },
+    {
+      "id": 2620871,
+      "key": "investment.account_setting.account_details"
+    },
+    {
+      "id": 2620868,
+      "key": "investment.account_setting.document"
+    },
+    {
+      "id": 2620790,
+      "key": "investment.einvoice.switch-in"
+    },
+    {
+      "id": 2620789,
+      "key": "investment.einvoice.all"
+    },
+    {
+      "id": 2620788,
+      "key": "investment.einvoice.buy"
+    },
+    {
+      "id": 2620786,
+      "key": "investment.einvoice.want-to-receive"
+    },
+    {
+      "id": 2620418,
+      "key": "investment.einvoice.history"
+    },
+    {
+      "id": 2620330,
+      "key": "investment.einvoice.no"
+    },
+    {
+      "id": 2620329,
+      "key": "investment.einvoice.title"
+    },
+    {
+      "id": 2620319,
+      "key": "investment.einvoice.drawer.content"
+    },
+    {
+      "id": 2620318,
+      "key": "investment.einvoice.drawer.header"
+    },
+    {
+      "id": 2620316,
+      "key": "investment.einvoice.desc"
+    },
+    {
+      "id": 2620313,
+      "key": "investment.einvoice.header"
+    },
+    {
+      "id": 2619808,
+      "key": "invest.fc.positive_daily_return"
+    },
+    {
+      "id": 2619434,
+      "key": "invest.fc.funds_recommendation"
+    },
+    {
+      "id": 2618624,
+      "key": "invest.pay_it_now"
+    },
+    {
+      "id": 2618623,
+      "key": "invest.jump_shopee_payment_flow"
+    },
+    {
+      "id": 2618622,
+      "key": "invest.jump_shopeepay_payment_flow"
+    },
+    {
+      "id": 2617917,
+      "key": "invest.fc.recommendation_c_reason"
+    },
+    {
+      "id": 2617916,
+      "key": "invest.fc.recommendation_b_reason"
+    },
+    {
+      "id": 2617909,
+      "key": "invest.fc.seven_days"
+    },
+    {
+      "id": 2617908,
+      "key": "invest.fc.recommendation_a_reason"
+    },
+    {
+      "id": 2617656,
+      "key": "invest.fc.past_one_year_return"
+    },
+    {
+      "id": 2617599,
+      "key": "invest.fc.buy_now"
+    },
+    {
+      "id": 2617597,
+      "key": "invest.fc.buy_again"
+    },
+    {
+      "id": 2593213,
+      "key": "invest.common.fund_market_pages__shopeepay"
+    },
+    {
+      "id": 2593209,
+      "key": "invest.common.fund_market_pages__shopee"
+    },
+    {
+      "id": 2571591,
+      "key": "error.spm.invalid_channel"
+    },
+    {
+      "id": 2571650,
+      "key": "invest.auto_invest.landing.carousel2_tip1_title"
+    },
+    {
+      "id": 2571652,
+      "key": "invest.auto_invest.landing.carousel2_tip2_title"
+    },
+    {
+      "id": 2571654,
+      "key": "invest.auto_invest.landing.carousel2_tip3_title"
+    },
+    {
+      "id": 2571793,
+      "key": "invest.notice.account_delete"
+    },
+    {
+      "id": 2572012,
+      "key": "fund_market.today_earnings.popup_content"
+    },
+    {
+      "id": 2572075,
+      "key": "fund_market.switch"
+    },
+    {
+      "id": 2572076,
+      "key": "fund_market.switch.selecting"
+    },
+    {
+      "id": 2572077,
+      "key": "fund_market.switch.unselected"
+    },
+    {
+      "id": 2572481,
+      "key": "investment.nav"
+    },
+    {
+      "id": 2572482,
+      "key": "investment.nav_chart"
+    },
+    {
+      "id": 2572490,
+      "key": "invest.transaction.sell_before_cutoff_time_hint"
+    },
+    {
+      "id": 2572491,
+      "key": "invest.transaction.sell_after_cutoff_time_hint"
+    },
+    {
+      "id": 2572492,
+      "key": "invest.transaction.non_trading_day_sell_before_cutoff_time_hint"
+    },
+    {
+      "id": 2572499,
+      "key": "invest.sell_channel_tip.to_spp"
+    },
+    {
+      "id": 2572500,
+      "key": "invest.sell_channel_tip.to_bank"
+    },
+    {
+      "id": 2572532,
+      "key": "invest.error.nik_phone_empty"
+    },
+    {
+      "id": 2572554,
+      "key": "fund_market.terms_conditions_spay"
+    },
+    {
+      "id": 2572575,
+      "key": "easy_invest.kyc_spay.field.Money_Product_Highlight"
+    },
+    {
+      "id": 2572273,
+      "key": "invest.notice.user_deactivated"
+    },
+    {
+      "id": 2572279,
+      "key": "invest.notice.call_shopee_service"
+    },
+    {
+      "id": 2572293,
+      "key": "invest.kyc_form.permanent_resident_country_field"
+    },
+    {
+      "id": 2572294,
+      "key": "invest.kyc_form.permanent_resident_number_field"
+    },
+    {
+      "id": 2572296,
+      "key": "invest.kyc_form.high_risk_position_field"
+    },
+    {
+      "id": 2572297,
+      "key": "invest.kyc_form.high_risk_position_field.tip.1"
+    },
+    {
+      "id": 2572298,
+      "key": "invest.kyc_form.high_risk_position_field.tip.2"
+    },
+    {
+      "id": 2572299,
+      "key": "invest.kyc_form.high_risk_position_field.tip.3"
+    },
+    {
+      "id": 2572300,
+      "key": "invest.kyc_form.high_risk_position_field.tip.4"
+    },
+    {
+      "id": 2572301,
+      "key": "invest.kyc_form.high_risk_position_field.tip.5"
+    },
+    {
+      "id": 2572302,
+      "key": "invest.kyc_form.high_risk_position_field.tip.6"
+    },
+    {
+      "id": 2572362,
+      "key": "invest.account_setting.bank_account"
+    },
+    {
+      "id": 2572423,
+      "key": "fund_market_buy_payment_pending_my_title"
+    },
+    {
+      "id": 2572424,
+      "key": "fund_market_buy_payment_success_my_title"
+    },
+    {
+      "id": 2572425,
+      "key": "fund_market_buy_confirmation_my_title"
+    },
+    {
+      "id": 2572426,
+      "key": "fund_market_buy_failed_my_title"
+    },
+    {
+      "id": 2572427,
+      "key": "fund_market_buy_cooling_off_my_title"
+    },
+    {
+      "id": 2572428,
+      "key": "fund_market_buy_refund_success_wallet_my_title"
+    },
+    {
+      "id": 2572429,
+      "key": "fund_market_buy_refund_success_bank_my_title"
+    },
+    {
+      "id": 2572430,
+      "key": "fund_market_sell_submission_my_title"
+    },
+    {
+      "id": 2572431,
+      "key": "fund_market_sell_confirmation_my_title"
+    },
+    {
+      "id": 2572432,
+      "key": "fund_market_sell_failed_my_title"
+    },
+    {
+      "id": 2572433,
+      "key": "fund_market_sell_payout_failed_my_title"
+    },
+    {
+      "id": 2572434,
+      "key": "fund_market_sell_payout_succeeded_my_title"
+    },
+    {
+      "id": 2572438,
+      "key": "fund_market_dividend_my_title"
+    },
+    {
+      "id": 2572441,
+      "key": "fund_market_buy_payment_pending_my_content"
+    },
+    {
+      "id": 2572442,
+      "key": "fund_market_buy_payment_success_my_content"
+    },
+    {
+      "id": 2572443,
+      "key": "fund_market_buy_confirmation_my_content"
+    },
+    {
+      "id": 2572444,
+      "key": "fund_market_buy_failed_my_content"
+    },
+    {
+      "id": 2572445,
+      "key": "fund_market_buy_cooling_off_my_content"
+    },
+    {
+      "id": 2572446,
+      "key": "fund_market_buy_refund_success_wallet_my_content"
+    },
+    {
+      "id": 2572447,
+      "key": "fund_market_buy_refund_success_bank_my_content"
+    },
+    {
+      "id": 2572448,
+      "key": "fund_market_sell_submission_my_content"
+    },
+    {
+      "id": 2572449,
+      "key": "fund_market_sell_confirmation_my_content"
+    },
+    {
+      "id": 2572450,
+      "key": "fund_market_sell_failed_my_content"
+    },
+    {
+      "id": 2572452,
+      "key": "fund_market_sell_payout_succeeded_my_content"
+    },
+    {
+      "id": 2572456,
+      "key": "fund_market_dividend_my_content"
+    },
+    {
+      "id": 2572080,
+      "key": "fund_market.notice.select_risk.title"
+    },
+    {
+      "id": 2572086,
+      "key": "easy_invest.withdraw_cancelled_tips"
+    },
+    {
+      "id": 2572088,
+      "key": "easy_invest.email_verify_h5.failed_body"
+    },
+    {
+      "id": 2572095,
+      "key": "fund_market.notice.account_suspend"
+    },
+    {
+      "id": 2572100,
+      "key": "easy_invest.notice.invalid_email"
+    },
+    {
+      "id": 2572101,
+      "key": "easy_invest.notice.invalid_bank_email"
+    },
+    {
+      "id": 2572103,
+      "key": "easy_invest.spay_kyc_revise_note.content"
+    },
+    {
+      "id": 2572146,
+      "key": "fund_market.fund_detail_more.trans_timeline_sell_to_bank.title"
+    },
+    {
+      "id": 2572147,
+      "key": "fund_market.fund_detail_more.trans_timeline_sell_to_spp.title"
+    },
+    {
+      "id": 2572152,
+      "key": "fund_market.fund_detail_more.timeline.estimated_t"
+    },
+    {
+      "id": 2572165,
+      "key": "fund_market.myr"
+    },
+    {
+      "id": 2572166,
+      "key": "fund_market.pre_unit"
+    },
+    {
+      "id": 2572185,
+      "key": "fund_market.buy_my_tips"
+    },
+    {
+      "id": 2572187,
+      "key": "fund_market.fund_detail_more.fee.annual_management_fee.desc"
+    },
+    {
+      "id": 2572188,
+      "key": "fund_market.fund_detail_more.fee.trustee_fee.desc"
+    },
+    {
+      "id": 2572189,
+      "key": "fund_market.fund_detail_more.fee.annual_expense_fee.desc"
+    },
+    {
+      "id": 2572235,
+      "key": "SPay_Invest_SPP_pass_continue_title"
+    },
+    {
+      "id": 2572236,
+      "key": "SPay_Invest_KYC_success_title"
+    },
+    {
+      "id": 2572237,
+      "key": "SPay_Invest_KYC_failure_title"
+    },
+    {
+      "id": 2572238,
+      "key": "SPay_Invest_annual_profile_update_title"
+    },
+    {
+      "id": 2572239,
+      "key": "SPay_Invest_account_will_be_frozen_title"
+    },
+    {
+      "id": 2572240,
+      "key": "SPay_Invest_account_frozen_title"
+    },
+    {
+      "id": 2572241,
+      "key": "SPay_Invest_account_closed_title"
+    },
+    {
+      "id": 2572242,
+      "key": "SPay_Invest_account_resumed_title"
+    },
+    {
+      "id": 2572243,
+      "key": "SPay_Invest_SPP_account_status_available"
+    },
+    {
+      "id": 2572245,
+      "key": "SPay_Invest_KYC_success"
+    },
+    {
+      "id": 2572246,
+      "key": "SPay_Invest_KYC_failure"
+    },
+    {
+      "id": 2572247,
+      "key": "SPay_Invest_annual_profile_update"
+    },
+    {
+      "id": 2572249,
+      "key": "SPay_Invest_account_frozen"
+    },
+    {
+      "id": 2572250,
+      "key": "SPay_Invest_account_closed"
+    },
+    {
+      "id": 2572251,
+      "key": "SPay_Invest_account_resumed"
+    },
+    {
+      "id": 2572252,
+      "key": "SPay_Money+_SPP_pass_continue_title"
+    },
+    {
+      "id": 2572253,
+      "key": "SPay_Money+_KYC_success_title"
+    },
+    {
+      "id": 2572254,
+      "key": "SPay_Money+_KYC_failure_title"
+    },
+    {
+      "id": 2572255,
+      "key": "SPay_Money+_annual_profile_update_title"
+    },
+    {
+      "id": 2572256,
+      "key": "SPay_Money+_account_will_be_frozen_title"
+    },
+    {
+      "id": 2572257,
+      "key": "SPay_Money+_account_frozen_title"
+    },
+    {
+      "id": 2572258,
+      "key": "SPay_Money+_account_closed_title"
+    },
+    {
+      "id": 2572259,
+      "key": "SPay_Money+_account_resumed_title"
+    },
+    {
+      "id": 2572260,
+      "key": "SPay_Money+_SPP_account_status_available"
+    },
+    {
+      "id": 2572261,
+      "key": "SPay_Money+_SPP_eKYC_approved"
+    },
+    {
+      "id": 2572262,
+      "key": "SPay_Money+_KYC_success"
+    },
+    {
+      "id": 2572263,
+      "key": "SPay_Money+_KYC_failure"
+    },
+    {
+      "id": 2572264,
+      "key": "SPay_Money+_annual_profile_update"
+    },
+    {
+      "id": 2572265,
+      "key": "SPay_Money+_SPP_eKYC_frozen"
+    },
+    {
+      "id": 2572266,
+      "key": "SPay_Money+_account_frozen"
+    },
+    {
+      "id": 2572267,
+      "key": "SPay_Money+_account_closed"
+    },
+    {
+      "id": 2572268,
+      "key": "SPay_Money+_account_resumed"
+    },
+    {
+      "id": 2572272,
+      "key": "invest.notice.account_suspend"
+    },
+    {
+      "id": 2571865,
+      "key": "auto_invest.notice.transaction_fail_new"
+    },
+    {
+      "id": 2571997,
+      "key": "fund_market.indicator.max_drawdown_adjusted_2"
+    },
+    {
+      "id": 2571665,
+      "key": "invest.auto_invest_details"
+    },
+    {
+      "id": 2571720,
+      "key": "auto_invest.history.tip.order_not_create_yet"
+    },
+    {
+      "id": 2571722,
+      "key": "auto_invest.history.tip.auto_deduction_fail"
+    },
+    {
+      "id": 2571756,
+      "key": "easy_invest.otp_verification_popup.title"
+    },
+    {
+      "id": 2571760,
+      "key": "easy_invest.resubmit_popup.title"
+    },
+    {
+      "id": 2571772,
+      "key": "invest.user.otp.remaining_attempts"
+    },
+    {
+      "id": 2571377,
+      "key": "error.application_failed_reasons"
+    },
+    {
+      "id": 2571378,
+      "key": "error.application_failed_errors_below"
+    },
+    {
+      "id": 2571379,
+      "key": "invest.view_more"
+    },
+    {
+      "id": 2571380,
+      "key": "error.failure_reasons"
+    },
+    {
+      "id": 2571447,
+      "key": "easy_invest.notice_valify_fail"
+    },
+    {
+      "id": 2571458,
+      "key": "fund_market.fund_details.unadjusted"
+    },
+    {
+      "id": 2571490,
+      "key": "invest.uploading"
+    },
+    {
+      "id": 2571628,
+      "key": "invest.nik"
+    },
+    {
+      "id": 2571629,
+      "key": "invest.phone_number"
+    },
+    {
+      "id": 2571631,
+      "key": "auto_invest.notice.transaction_fail"
+    },
+    {
+      "id": 2571633,
+      "key": "auto_invest.notice.insufficient_balance"
+    },
+    {
+      "id": 2571638,
+      "key": "invest.auto_invest.landing.banner_content"
+    },
+    {
+      "id": 2571270,
+      "key": "easy_invest.withdrawal_processing"
+    },
+    {
+      "id": 2571272,
+      "key": "easy_invest.withdrawal_amount_transfer_processing"
+    },
+    {
+      "id": 2571275,
+      "key": "easy_invest.withdrawal_amount_transfer_bank"
+    },
+    {
+      "id": 2571276,
+      "key": "easy_invest.transfer_withdrawal_failed_to_bank"
+    },
+    {
+      "id": 2571277,
+      "key": "easy_invest_withdrawal_successfully_to_bank"
+    },
+    {
+      "id": 2571280,
+      "key": "easy_invest.unavailable_account"
+    },
+    {
+      "id": 2571282,
+      "key": "easy_invest.unavailable_fund"
+    },
+    {
+      "id": 2571286,
+      "key": "easy_invest.tnx_force_sell_processing_tip"
+    },
+    {
+      "id": 2571287,
+      "key": "easy_invest.tnx_force_sell_failed_tip"
+    },
+    {
+      "id": 2571288,
+      "key": "easy_invest.tnx_force_sell_successful_tip"
+    },
+    {
+      "id": 2571291,
+      "key": "easy_invest.topup_method"
+    },
+    {
+      "id": 2571302,
+      "key": "easy_invest.account_ unavailable_tips"
+    },
+    {
+      "id": 2571306,
+      "key": "easy_invest.bank_invalid"
+    },
+    {
+      "id": 2571314,
+      "key": "easy_invest.risk_dialog_title"
+    },
+    {
+      "id": 2571330,
+      "key": "easy_invest.less_than_sell_amount"
+    },
+    {
+      "id": 2571331,
+      "key": "easy_invest.no_fund_holding"
+    },
+    {
+      "id": 2571332,
+      "key": "easy_invest.insufficient_holdings"
+    },
+    {
+      "id": 2571333,
+      "key": "easy_invest.insufficient_holdings_after_sell"
+    },
+    {
+      "id": 2571334,
+      "key": "easy_invest.invalid_subscription_amount"
+    },
+    {
+      "id": 2571335,
+      "key": "easy_invest.invalid_payment_channel"
+    },
+    {
+      "id": 2571340,
+      "key": "error.system_unavailable"
+    },
+    {
+      "id": 2571346,
+      "key": "invest.add_bank_repeat"
+    },
+    {
+      "id": 2571349,
+      "key": "easy_invest.bank_unavailable_tips"
+    },
+    {
+      "id": 2571350,
+      "key": "easy_invest.exceed_fpx_limit"
+    },
+    {
+      "id": 2571365,
+      "key": "easy_invest.pending_confirmation"
+    },
+    {
+      "id": 2571368,
+      "key": "easy_invest.kyc_spay.submit_sorry.spay_content"
+    },
+    {
+      "id": 2571404,
+      "key": "invest.error.rt006_rr017"
+    },
+    {
+      "id": 2571428,
+      "key": "easy_invest.add_bank.account_suspended"
+    },
+    {
+      "id": 2570968,
+      "key": "error.bill_check_timeout"
+    },
+    {
+      "id": 2570973,
+      "key": "easy_invest.otp_verification.content"
+    },
+    {
+      "id": 2571035,
+      "key": "more_contents"
+    },
+    {
+      "id": 2571041,
+      "key": "invest.pull_refresh_tips"
+    },
+    {
+      "id": 2571042,
+      "key": "easy_invest.withdraw_unavailable_tips"
+    },
+    {
+      "id": 2571061,
+      "key": "easy_invest.kyc_spay.name_of_employer"
+    },
+    {
+      "id": 2571068,
+      "key": "easy_invest.kyc_spay.specify_race"
+    },
+    {
+      "id": 2571070,
+      "key": "easy_invest.kyc_spay.email"
+    },
+    {
+      "id": 2571073,
+      "key": "easy_invest.kyc_spay.select_bank"
+    },
+    {
+      "id": 2571075,
+      "key": "easy_invest.kyc_spay.terms_and_conditions.content"
+    },
+    {
+      "id": 2571076,
+      "key": "easy_invest.completing_note.content"
+    },
+    {
+      "id": 2571081,
+      "key": "easy_invest.spay_resubmit_note.title"
+    },
+    {
+      "id": 2571082,
+      "key": "easy_invest.spay_resubmit_note.content"
+    },
+    {
+      "id": 2571083,
+      "key": "easy_invest.spay_kyc_revise_note.title"
+    },
+    {
+      "id": 2571085,
+      "key": "easy_invest.spp_verifying_note.title"
+    },
+    {
+      "id": 2571086,
+      "key": "easy_invest.spp_verifying_note.content"
+    },
+    {
+      "id": 2571087,
+      "key": "easy_invest.spp_resubmit_note.title"
+    },
+    {
+      "id": 2571088,
+      "key": "easy_invest.spp_resubmit_note.content"
+    },
+    {
+      "id": 2571089,
+      "key": "easy_invest.holdings_spp_resubmit_note.title"
+    },
+    {
+      "id": 2571090,
+      "key": "easy_invest.holdings_spp_resubmit_note.content"
+    },
+    {
+      "id": 2571120,
+      "key": "error.status_unavailable"
+    },
+    {
+      "id": 2571144,
+      "key": "easy_invest.kyc_spay.submit_sorry.content"
+    },
+    {
+      "id": 2571147,
+      "key": "easy_invest.force_sell.content"
+    },
+    {
+      "id": 2571167,
+      "key": "easy_invest.add_bank_sp.confirm_content"
+    },
+    {
+      "id": 2571188,
+      "key": "easy_invest.estimated_unit_received"
+    },
+    {
+      "id": 2571192,
+      "key": "easy_invest.return_info_disclaimer"
+    },
+    {
+      "id": 2571211,
+      "key": "balance"
+    },
+    {
+      "id": 2571212,
+      "key": "easy_invest.topup_balance_tip"
+    },
+    {
+      "id": 2571213,
+      "key": "invest.submitted_success"
+    },
+    {
+      "id": 2571218,
+      "key": "fund_market.fund_detail_more.trustee_bank"
+    },
+    {
+      "id": 2571232,
+      "key": "easy_invest.kyc_spay.field.Eastspring_TNC"
+    },
+    {
+      "id": 2571233,
+      "key": "easy_invest.kyc_spay.field.Money_Prospectus"
+    },
+    {
+      "id": 2571234,
+      "key": "easy_invest.kyc_spay.field.Unit_Trust_Loan_Financing_Risk_Disclosure_Statement"
+    },
+    {
+      "id": 2570767,
+      "key": "fund_market.home.new_card_desc2"
+    },
+    {
+      "id": 2570768,
+      "key": "notify.to_refund.credited.credit_card"
+    },
+    {
+      "id": 2570770,
+      "key": "easy_invest.kyc.self_photo_title"
+    },
+    {
+      "id": 2570771,
+      "key": "refund_rejected"
+    },
+    {
+      "id": 2570835,
+      "key": "fund_market.trans_confirmation"
+    },
+    {
+      "id": 2570837,
+      "key": "easy_invest.email_verify_h5.failed_header"
+    },
+    {
+      "id": 2570838,
+      "key": "error.fetch_game_nickname_failed"
+    },
+    {
+      "id": 2570839,
+      "key": "easy_invest.bank.bank"
+    },
+    {
+      "id": 2570840,
+      "key": "emas.pending_fulfillment.description"
+    },
+    {
+      "id": 2570844,
+      "key": "fund_market.estimated_time"
+    },
+    {
+      "id": 2570845,
+      "key": "easy_invest.spp_banner.submitting.header"
+    },
+    {
+      "id": 2570848,
+      "key": "error.book_error"
+    },
+    {
+      "id": 2570850,
+      "key": "easy_invest.default_label"
+    },
+    {
+      "id": 2570853,
+      "key": "error.movie_snack_ticket_expired"
+    },
+    {
+      "id": 2570855,
+      "key": "error.name_too_short"
+    },
+    {
+      "id": 2570856,
+      "key": "shopeepay_giro"
+    },
+    {
+      "id": 2570860,
+      "key": "error.blacklist_channel"
+    },
+    {
+      "id": 2570861,
+      "key": "fund_market.resource_title1"
+    },
+    {
+      "id": 2570865,
+      "key": "easy_invest.linked.title"
+    },
+    {
+      "id": 2570869,
+      "key": "easy_invest.spp_banner.under_approving.header"
+    },
+    {
+      "id": 2570871,
+      "key": "easy_invest.spp_banner.under_approving.button"
+    },
+    {
+      "id": 2570874,
+      "key": "request_submitted"
+    },
+    {
+      "id": 2570875,
+      "key": "easy_invest.kyc.income_source_select"
+    },
+    {
+      "id": 2570881,
+      "key": "error.booking_too_frequently"
+    },
+    {
+      "id": 2570884,
+      "key": "error.price_check_fail"
+    },
+    {
+      "id": 2570885,
+      "key": "error.utility_mwa_customer_not_found"
+    },
+    {
+      "id": 2570887,
+      "key": "easy_invest.new_popup.title"
+    },
+    {
+      "id": 2570888,
+      "key": "confirm_nav"
+    },
+    {
+      "id": 2570889,
+      "key": "refund_failed"
+    },
+    {
+      "id": 2570893,
+      "key": "refund_paid"
+    },
+    {
+      "id": 2570894,
+      "key": "refund_text_0"
+    },
+    {
+      "id": 2570895,
+      "key": "error.utility_have_verifying_debt"
+    },
+    {
+      "id": 2570896,
+      "key": "easy_invest.not_open_note.title"
+    },
+    {
+      "id": 2570899,
+      "key": "error.not_on_promotion_state"
+    },
+    {
+      "id": 2570902,
+      "key": "easy_invest.notice_invalid_card"
+    },
+    {
+      "id": 2570903,
+      "key": "fund_market.email_verify_h5.btn_fund_market_title"
+    },
+    {
+      "id": 2570904,
+      "key": "easy_invest.spp_banner.failure.button"
+    },
+    {
+      "id": 2570907,
+      "key": "easy_invest.spp_banner.submitting.button"
+    },
+    {
+      "id": 2570908,
+      "key": "error.claim_voucher_expired"
+    },
+    {
+      "id": 2570909,
+      "key": "enter_unit"
+    },
+    {
+      "id": 2570910,
+      "key": "error.name_too_long"
+    },
+    {
+      "id": 2570911,
+      "key": "fund_market.estimated_handling_fee"
+    },
+    {
+      "id": 2570912,
+      "key": "easy_invest.popup_refund_tips"
+    },
+    {
+      "id": 2570915,
+      "key": "easy_invest.otp.title"
+    },
+    {
+      "id": 2570917,
+      "key": "error.bill_system_busy"
+    },
+    {
+      "id": 2570921,
+      "key": "error.duplicated_order"
+    },
+    {
+      "id": 2570922,
+      "key": "refund_text_1"
+    },
+    {
+      "id": 2570931,
+      "key": "easy_invest.wib"
+    },
+    {
+      "id": 2570937,
+      "key": "easy_invest.verify_account.dialog_title.confirm"
+    },
+    {
+      "id": 2570944,
+      "key": "shopeepay_coin_cashback"
+    },
+    {
+      "id": 2570945,
+      "key": "notify.to_refund.completed"
+    },
+    {
+      "id": 2570948,
+      "key": "error.invalid_user_status"
+    },
+    {
+      "id": 2570951,
+      "key": "error.movie_booking_expired"
+    },
+    {
+      "id": 2570953,
+      "key": "easy_invest.kyc.dialog.infomation_prefilled_title"
+    },
+    {
+      "id": 2570954,
+      "key": "easy_invest.linking_note.title"
+    },
+    {
+      "id": 2570963,
+      "key": "refund_detail"
+    },
+    {
+      "id": 2570964,
+      "key": "easy_invest.email_verify_h5.succ_body"
+    },
+    {
+      "id": 2570981,
+      "key": "easy_invest.prompt_add_bank_fail"
+    },
+    {
+      "id": 2570985,
+      "key": "error.credit_bill_wrong_bank"
+    },
+    {
+      "id": 2570992,
+      "key": "easy_invest.not_open_note.content"
+    },
+    {
+      "id": 2570993,
+      "key": "voucher.claim"
+    },
+    {
+      "id": 2570994,
+      "key": "selling_out"
+    },
+    {
+      "id": 2570995,
+      "key": "voucher.count"
+    },
+    {
+      "id": 2570996,
+      "key": "history.rm_succ"
+    },
+    {
+      "id": 2570997,
+      "key": "voucher.claim.title.cap.coinCashback"
+    },
+    {
+      "id": 2570998,
+      "key": "error.voucher_claim_limit"
+    },
+    {
+      "id": 2570999,
+      "key": "voucher.claimed"
+    },
+    {
+      "id": 2571000,
+      "key": "error.subscription_different_transaction_type_error"
+    },
+    {
+      "id": 2571001,
+      "key": "promotion_off"
+    },
+    {
+      "id": 2571002,
+      "key": "voucher.tc"
+    },
+    {
+      "id": 2571003,
+      "key": "voucher_pop_up_tips"
+    },
+    {
+      "id": 2571004,
+      "key": "history"
+    },
+    {
+      "id": 2571005,
+      "key": "new_user_price"
+    },
+    {
+      "id": 2571006,
+      "key": "voucher.claim.label.shopeePayOnly"
+    },
+    {
+      "id": 2571007,
+      "key": "voucher.claim.success"
+    },
+    {
+      "id": 2571008,
+      "key": "voucher.drawer.title"
+    },
+    {
+      "id": 2571009,
+      "key": "x_sold"
+    },
+    {
+      "id": 2571011,
+      "key": "copy"
+    },
+    {
+      "id": 2571012,
+      "key": "copied"
+    },
+    {
+      "id": 2571014,
+      "key": "voucher.claim.validTill"
+    },
+    {
+      "id": 2571015,
+      "key": "voucher.claim.label.newUserOnly"
+    },
+    {
+      "id": 2571016,
+      "key": "remove"
+    },
+    {
+      "id": 2571017,
+      "key": "voucher.claim.title.minSpend"
+    },
+    {
+      "id": 2571018,
+      "key": "voucher.drawer.description"
+    },
+    {
+      "id": 2571019,
+      "key": "error.subscription_has_opened_error"
+    },
+    {
+      "id": 2571020,
+      "key": "voucher.claim.title.discount.discountValue"
+    },
+    {
+      "id": 2571021,
+      "key": "apply"
+    },
+    {
+      "id": 2571022,
+      "key": "claim_vouchers"
+    },
+    {
+      "id": 2571023,
+      "key": "use"
+    },
+    {
+      "id": 2571024,
+      "key": "voucher.claim.title.discount.discountPercentage"
+    },
+    {
+      "id": 2571025,
+      "key": "maintenance"
+    },
+    {
+      "id": 2571026,
+      "key": "voucher.count.single"
+    },
+    {
+      "id": 2571027,
+      "key": "history.rm_confirm"
+    },
+    {
+      "id": 2571028,
+      "key": "pay"
+    },
+    {
+      "id": 2571029,
+      "key": "view_all"
+    },
+    {
+      "id": 2571030,
+      "key": "history.rm_err"
+    },
+    {
+      "id": 2571031,
+      "key": "voucher.claim.startAt"
+    },
+    {
+      "id": 2571032,
+      "key": "voucher.claim.title.discount.coinCashback"
+    },
+    {
+      "id": 2571033,
+      "key": "voucher.claim.title.cap.discount"
+    },
+    {
+      "id": 2570634,
+      "key": "error.claim_voucher_no_quota"
+    },
+    {
+      "id": 2570637,
+      "key": "refund_text_7"
+    },
+    {
+      "id": 2570649,
+      "key": "error.bpjs_bill_already_paid"
+    },
+    {
+      "id": 2570653,
+      "key": "error.book_system_error"
+    },
+    {
+      "id": 2570657,
+      "key": "easy_invest.spp_banner.linking.button"
+    },
+    {
+      "id": 2570659,
+      "key": "easy_invest.spp_banner.email_verifying.header"
+    },
+    {
+      "id": 2570667,
+      "key": "transaction_id"
+    },
+    {
+      "id": 2570674,
+      "key": "snack_not_enough"
+    },
+    {
+      "id": 2570683,
+      "key": "error.book_timeout"
+    },
+    {
+      "id": 2570684,
+      "key": "error.bill_no_outstanding"
+    },
+    {
+      "id": 2570685,
+      "key": "error.utility_invalid_pay_amount"
+    },
+    {
+      "id": 2570687,
+      "key": "easy_invest.sharia"
+    },
+    {
+      "id": 2570689,
+      "key": "shopeepay"
+    },
+    {
+      "id": 2570691,
+      "key": "error.utility_have_installment"
+    },
+    {
+      "id": 2570696,
+      "key": "easy_invest.spp_banner.linked.header"
+    },
+    {
+      "id": 2570697,
+      "key": "easy_invest.notice.verify_email.title"
+    },
+    {
+      "id": 2570703,
+      "key": "easy_invest.bank.holder_name"
+    },
+    {
+      "id": 2570706,
+      "key": "error.bus_busy"
+    },
+    {
+      "id": 2570708,
+      "key": "purchased_product"
+    },
+    {
+      "id": 2570713,
+      "key": "fund_market.email_verify_h5.btn_easy_invest_content"
+    },
+    {
+      "id": 2570714,
+      "key": "error.already_request_refund"
+    },
+    {
+      "id": 2570715,
+      "key": "easy_invest.prompt_adding_bank"
+    },
+    {
+      "id": 2570716,
+      "key": "coins"
+    },
+    {
+      "id": 2570722,
+      "key": "refundable_amount"
+    },
+    {
+      "id": 2570728,
+      "key": "fund_market.email_verify_h5.btn_fund_market_content"
+    },
+    {
+      "id": 2570731,
+      "key": "error.claim_voucher_failed"
+    },
+    {
+      "id": 2570735,
+      "key": "easy_invest.get_draft_failed"
+    },
+    {
+      "id": 2570746,
+      "key": "error.fetch_coins_failed"
+    },
+    {
+      "id": 2570748,
+      "key": "error.bill_not_found"
+    },
+    {
+      "id": 2570753,
+      "key": "easy_invest.kyc.tip.upload_img"
+    },
+    {
+      "id": 2570761,
+      "key": "easy_invest.spp_banner.success.button"
+    },
+    {
+      "id": 2570772,
+      "key": "refund_text_4"
+    },
+    {
+      "id": 2570773,
+      "key": "fund_market.buy_topay_tips"
+    },
+    {
+      "id": 2570775,
+      "key": "easy_invest.spp_banner.failure.content"
+    },
+    {
+      "id": 2570782,
+      "key": "error.utility_no_unpaid_debt"
+    },
+    {
+      "id": 2570784,
+      "key": "easy_invest.kyc.tip.success"
+    },
+    {
+      "id": 2570785,
+      "key": "easy_invest.kyc.dialog.retake_photo_tip"
+    },
+    {
+      "id": 2570789,
+      "key": "easy_invest.email_verify.asking_resend"
+    },
+    {
+      "id": 2570790,
+      "key": "Sell"
+    },
+    {
+      "id": 2570792,
+      "key": "receive_failed"
+    },
+    {
+      "id": 2570793,
+      "key": "easy_invest.email_verify.title"
+    },
+    {
+      "id": 2570794,
+      "key": "sharia"
+    },
+    {
+      "id": 2570796,
+      "key": "fund_market.explore_investment"
+    },
+    {
+      "id": 2570799,
+      "key": "easy_invest.spp_banner.email_verifying.button"
+    },
+    {
+      "id": 2570801,
+      "key": "easy_invest.bank.account"
+    },
+    {
+      "id": 2570804,
+      "key": "error.out_of_promotion_stock"
+    },
+    {
+      "id": 2570809,
+      "key": "shopeepay.discount_max_n_items"
+    },
+    {
+      "id": 2570816,
+      "key": "error.flight_not_available"
+    },
+    {
+      "id": 2570817,
+      "key": "easy_invest.bank.holder_account"
+    },
+    {
+      "id": 2570818,
+      "key": "error.utility_exceed_maximum"
+    },
+    {
+      "id": 2570819,
+      "key": "fund_market.not_confirm_T&C"
+    },
+    {
+      "id": 2570823,
+      "key": "easy_invest.email_verify_h5.expired_body"
+    },
+    {
+      "id": 2570826,
+      "key": "easy_invest.spp_banner.linked.button"
+    },
+    {
+      "id": 2570831,
+      "key": "error.train_busy"
+    },
+    {
+      "id": 2570833,
+      "key": "easy_invest.otp_verification"
+    },
+    {
+      "id": 2570436,
+      "key": "error.train_select_seat_failed"
+    },
+    {
+      "id": 2570441,
+      "key": "error.promotion.selected_voucher_can_not_be_used"
+    },
+    {
+      "id": 2570442,
+      "key": "fund_market.buy_in_progress"
+    },
+    {
+      "id": 2570446,
+      "key": "application_unit"
+    },
+    {
+      "id": 2570461,
+      "key": "refund_processing"
+    },
+    {
+      "id": 2570465,
+      "key": "error.unpaid_orders_limit_exceeded"
+    },
+    {
+      "id": 2570472,
+      "key": "error.utility_no_debt"
+    },
+    {
+      "id": 2570474,
+      "key": "error.train_get_seat_map_failed"
+    },
+    {
+      "id": 2570477,
+      "key": "error.train_select_failed"
+    },
+    {
+      "id": 2570482,
+      "key": "error.baggage_last_minute"
+    },
+    {
+      "id": 2570483,
+      "key": "error.emoney_period_recharge_amount_exceeded"
+    },
+    {
+      "id": 2570502,
+      "key": "error.zero_order_amount_toast"
+    },
+    {
+      "id": 2570509,
+      "key": "easy_invest.topup_unavailable_tips"
+    },
+    {
+      "id": 2570510,
+      "key": "coins_refund"
+    },
+    {
+      "id": 2570513,
+      "key": "pay_now"
+    },
+    {
+      "id": 2570519,
+      "key": "easy_invest.withdraw_successful_tips4"
+    },
+    {
+      "id": 2570525,
+      "key": "easy_invest.kyc.error_tip.nik"
+    },
+    {
+      "id": 2570528,
+      "key": "error.insurance_supplier_is_not_available"
+    },
+    {
+      "id": 2570529,
+      "key": "easy_invest.kyc.income_source_placeholder"
+    },
+    {
+      "id": 2570533,
+      "key": "top_up_amount"
+    },
+    {
+      "id": 2570536,
+      "key": "error.emoney_card_expired"
+    },
+    {
+      "id": 2570542,
+      "key": "error.duplicate_booking"
+    },
+    {
+      "id": 2570544,
+      "key": "easy_invest.kyc.id_photo_title"
+    },
+    {
+      "id": 2570549,
+      "key": "payment_method"
+    },
+    {
+      "id": 2570555,
+      "key": "refund_amount"
+    },
+    {
+      "id": 2570557,
+      "key": "error.movie_session_not_found"
+    },
+    {
+      "id": 2570562,
+      "key": "easy_invest.bank.search_bank"
+    },
+    {
+      "id": 2570568,
+      "key": "fund_market.email_verify_h5.btn_easy_invest_title"
+    },
+    {
+      "id": 2570569,
+      "key": "error.promotion.voucher_can_not_be_used_with_product"
+    },
+    {
+      "id": 2570577,
+      "key": "error.claim_voucher_invalid"
+    },
+    {
+      "id": 2570580,
+      "key": "error.bill_already_paid"
+    },
+    {
+      "id": 2570585,
+      "key": "error.utility_group_payment"
+    },
+    {
+      "id": 2570590,
+      "key": "fund_market.home.new_card_desc1"
+    },
+    {
+      "id": 2570593,
+      "key": "easy_invest.kyc.error_tip.phone_number"
+    },
+    {
+      "id": 2570596,
+      "key": "easy_invest.uploaded"
+    },
+    {
+      "id": 2570597,
+      "key": "error.too_many_passengers"
+    },
+    {
+      "id": 2570599,
+      "key": "easy_invest.spp_banner.success.header"
+    },
+    {
+      "id": 2570602,
+      "key": "error.weak_connection"
+    },
+    {
+      "id": 2570603,
+      "key": "error.apply_coins_failed"
+    },
+    {
+      "id": 2570608,
+      "key": "easy_invest.kyc.error_tip.email"
+    },
+    {
+      "id": 2570613,
+      "key": "installment"
+    },
+    {
+      "id": 2570615,
+      "key": "error.bill_number_blocked"
+    },
+    {
+      "id": 2570616,
+      "key": "fund_market.email_verify_h5.succ_body"
+    },
+    {
+      "id": 2570632,
+      "key": "error.emoney_card_not_active"
+    },
+    {
+      "id": 2570237,
+      "key": "error.invalid_name"
+    },
+    {
+      "id": 2570242,
+      "key": "easy_invest.spp_banner.email_verifying.content"
+    },
+    {
+      "id": 2570247,
+      "key": "error.credit_bill_wrong_account"
+    },
+    {
+      "id": 2570251,
+      "key": "easy_invest.estimated_t2_7_days"
+    },
+    {
+      "id": 2570262,
+      "key": "easy_invest.spp_banner.not_opened.header"
+    },
+    {
+      "id": 2570263,
+      "key": "easy_invest.withdraw_successful_tips5"
+    },
+    {
+      "id": 2570264,
+      "key": "easy_invest.error_tip.email"
+    },
+    {
+      "id": 2570270,
+      "key": "application_amount"
+    },
+    {
+      "id": 2570273,
+      "key": "error.infant_not_allowed"
+    },
+    {
+      "id": 2570274,
+      "key": "error.bill_inquiry_failed"
+    },
+    {
+      "id": 2570276,
+      "key": "easy_invest.withdrawal.tip.adjust_ssp_title"
+    },
+    {
+      "id": 2570277,
+      "key": "error.exceed_maximum"
+    },
+    {
+      "id": 2570278,
+      "key": "earned_coins"
+    },
+    {
+      "id": 2570281,
+      "key": "error.booking_spec_not_allowed"
+    },
+    {
+      "id": 2570303,
+      "key": "easy_invest.spp_banner.not_opened.button"
+    },
+    {
+      "id": 2570305,
+      "key": "easy_invest.before_1300_of_day"
+    },
+    {
+      "id": 2570310,
+      "key": "error.utility_error_occurred"
+    },
+    {
+      "id": 2570311,
+      "key": "error.device_limit"
+    },
+    {
+      "id": 2570313,
+      "key": "easy_invest.kyc.bank_select"
+    },
+    {
+      "id": 2570314,
+      "key": "error.bill_account_wrong"
+    },
+    {
+      "id": 2570318,
+      "key": "easy_invest.fail.title"
+    },
+    {
+      "id": 2570319,
+      "key": "shopeepay_promotion.error_reach_max_purchase_limit"
+    },
+    {
+      "id": 2570325,
+      "key": "error.duplicated_order.vn"
+    },
+    {
+      "id": 2570332,
+      "key": "error.utility_not_resident_customer"
+    },
+    {
+      "id": 2570333,
+      "key": "refunded_coins_tips"
+    },
+    {
+      "id": 2570339,
+      "key": "notify.to_refund.credited.bank_account"
+    },
+    {
+      "id": 2570341,
+      "key": "shopeepay_wallet"
+    },
+    {
+      "id": 2570347,
+      "key": "refund_text_2"
+    },
+    {
+      "id": 2570349,
+      "key": "easy_invest.linking_popup.ok"
+    },
+    {
+      "id": 2570350,
+      "key": "easy_invest.withdraw_successful_tips6"
+    },
+    {
+      "id": 2570352,
+      "key": "emas.min"
+    },
+    {
+      "id": 2570353,
+      "key": "fund_market.sell_unavailable_tips2"
+    },
+    {
+      "id": 2570354,
+      "key": "error.utility_statement_not_available"
+    },
+    {
+      "id": 2570356,
+      "key": "easy_invest.kyc.dialog.resign_tip"
+    },
+    {
+      "id": 2570357,
+      "key": "fund_market.incoming"
+    },
+    {
+      "id": 2570358,
+      "key": "easy_invest.fail_popup.content"
+    },
+    {
+      "id": 2570366,
+      "key": "error.utility_can_not_pay_on_weekends"
+    },
+    {
+      "id": 2570369,
+      "key": "easy_invest.topup_larggest_tips"
+    },
+    {
+      "id": 2570375,
+      "key": "yes"
+    },
+    {
+      "id": 2570376,
+      "key": "easy_invest.email_verify_h5.succ_header"
+    },
+    {
+      "id": 2570379,
+      "key": "easy_invest.kyc.education_placeholder"
+    },
+    {
+      "id": 2570382,
+      "key": "shopeepay.discount_max_1_item"
+    },
+    {
+      "id": 2570384,
+      "key": "refund_history"
+    },
+    {
+      "id": 2570388,
+      "key": "easy_invest.otp.send_fail_tip"
+    },
+    {
+      "id": 2570392,
+      "key": "fund_market.investment_tips"
+    },
+    {
+      "id": 2570395,
+      "key": "refund_text_6"
+    },
+    {
+      "id": 2570400,
+      "key": "easy_invest.topup_less_than_minBuy"
+    },
+    {
+      "id": 2570403,
+      "key": "error.utility_internal_error"
+    },
+    {
+      "id": 2570405,
+      "key": "easy_invest.spp_banner.inactive.button"
+    },
+    {
+      "id": 2570406,
+      "key": "error.bill_number_wrong"
+    },
+    {
+      "id": 2570415,
+      "key": "error.utility_service_continue"
+    },
+    {
+      "id": 2570417,
+      "key": "error.promotion.flash_sale_purchase_limit"
+    },
+    {
+      "id": 2570418,
+      "key": "easy_invest.conventional"
+    },
+    {
+      "id": 2570419,
+      "key": "easy_invest.spp_banner.linking.header"
+    },
+    {
+      "id": 2570420,
+      "key": "error.promotion.price_has_changed"
+    },
+    {
+      "id": 2570422,
+      "key": "bus.return_seat_not_available"
+    },
+    {
+      "id": 2570423,
+      "key": "error.booking_limit_exceed"
+    },
+    {
+      "id": 2570427,
+      "key": "fund_market.unavailable_amount"
+    },
+    {
+      "id": 2570428,
+      "key": "easy_invest.bank.name"
+    },
+    {
+      "id": 2570429,
+      "key": "error.bill_is_expired"
+    },
+    {
+      "id": 2570430,
+      "key": "refund_text_8"
+    },
+    {
+      "id": 2570490,
+      "key": "easy_invest.withdrawal.tip.transfer_failed"
+    },
+    {
+      "id": 2570493,
+      "key": "easy_invest.withdrawal.tip.retry_payout_title"
+    },
+    {
+      "id": 2570083,
+      "key": "fund_market.top.selections"
+    },
+    {
+      "id": 2570088,
+      "key": "notify.completed.refund_rejected"
+    },
+    {
+      "id": 2570090,
+      "key": "bus.all_seat_not_available"
+    },
+    {
+      "id": 2570092,
+      "key": "requested_on"
+    },
+    {
+      "id": 2570094,
+      "key": "fund_market.sell_unit"
+    },
+    {
+      "id": 2570104,
+      "key": "error.utility_meter_disconnected"
+    },
+    {
+      "id": 2570105,
+      "key": "error.load_products_failed"
+    },
+    {
+      "id": 2570107,
+      "key": "refund_is_processing"
+    },
+    {
+      "id": 2570110,
+      "key": "error.promotion.voucher_can_not_be_used_with_channel"
+    },
+    {
+      "id": 2570111,
+      "key": "error.duplicate_passenger_names"
+    },
+    {
+      "id": 2570112,
+      "key": "fund_market.return_calculator"
+    },
+    {
+      "id": 2570115,
+      "key": "error.claim_voucher_exist"
+    },
+    {
+      "id": 2570116,
+      "key": "error.bill_inquiry_service_not_available"
+    },
+    {
+      "id": 2570117,
+      "key": "fund_market.latest_update_date"
+    },
+    {
+      "id": 2570118,
+      "key": "error.exceed_stock"
+    },
+    {
+      "id": 2570119,
+      "key": "easy_invest.unable_change_tips"
+    },
+    {
+      "id": 2570123,
+      "key": "error.bus_route_not_available"
+    },
+    {
+      "id": 2570129,
+      "key": "easy_invest.tips_to_re_upload_image"
+    },
+    {
+      "id": 2570132,
+      "key": "error.utility_direct_debit"
+    },
+    {
+      "id": 2570137,
+      "key": "fund_market.email_verify_h5.succ_header"
+    },
+    {
+      "id": 2570138,
+      "key": "easy_invest.kyc.bank_information"
+    },
+    {
+      "id": 2570141,
+      "key": "refund_text_5"
+    },
+    {
+      "id": 2570145,
+      "key": "easy_invest.spp_banner.failure.header"
+    },
+    {
+      "id": 2570147,
+      "key": "easy_invest.spp_banner.inactive.header"
+    },
+    {
+      "id": 2570150,
+      "key": "easy_invest.account_registration"
+    },
+    {
+      "id": 2570154,
+      "key": "error.emoney_card_not_registered"
+    },
+    {
+      "id": 2570163,
+      "key": "shopeepay_discount"
+    },
+    {
+      "id": 2570168,
+      "key": "easy_invest.new_popup.content"
+    },
+    {
+      "id": 2570170,
+      "key": "transfer_failed"
+    },
+    {
+      "id": 2570172,
+      "key": "easy_invest.notice.submitting.title"
+    },
+    {
+      "id": 2570173,
+      "key": "fund_market.buy_refund_tips"
+    },
+    {
+      "id": 2570180,
+      "key": "error.bill_issues"
+    },
+    {
+      "id": 2570182,
+      "key": "error.invalid_card_number"
+    },
+    {
+      "id": 2570183,
+      "key": "error.not_found"
+    },
+    {
+      "id": 2570185,
+      "key": "notify.to_refund.credited.shopeepay"
+    },
+    {
+      "id": 2570187,
+      "key": "easy_invest.estimated_t1_day"
+    },
+    {
+      "id": 2570189,
+      "key": "easy_invest.withdrawal.tip.spp_inbound_quota"
+    },
+    {
+      "id": 2570190,
+      "key": "bus.departure_seat_not_available"
+    },
+    {
+      "id": 2570200,
+      "key": "easy_invest.kyc.income_range_select"
+    },
+    {
+      "id": 2570203,
+      "key": "easy_invest.fail_popup.title"
+    },
+    {
+      "id": 2570205,
+      "key": "fund_market.resource_title2"
+    },
+    {
+      "id": 2570207,
+      "key": "fund_market.mutual_funds"
+    },
+    {
+      "id": 2570208,
+      "key": "conventional"
+    },
+    {
+      "id": 2570210,
+      "key": "easy_invest.kyc.bank_placeholder"
+    },
+    {
+      "id": 2570219,
+      "key": "easy_invest.kyc.income_range_placeholder"
+    },
+    {
+      "id": 2570220,
+      "key": "shopeepay.cashback_promotion_tips_v2"
+    },
+    {
+      "id": 2570221,
+      "key": "easy_invest.email_verify_h5.expired_header"
+    },
+    {
+      "id": 2570228,
+      "key": "error.bought_too_many"
+    },
+    {
+      "id": 2570283,
+      "key": "easy_invest.kyc.education_select"
+    },
+    {
+      "id": 2570285,
+      "key": "easy_invest.transaction_status.unavailable"
+    },
+    {
+      "id": 2570291,
+      "key": "label_credit_debit_card"
+    },
+    {
+      "id": 2570294,
+      "key": "error.invalid_adult_age"
+    },
+    {
+      "id": 2570295,
+      "key": "error.movie_session_started"
+    },
+    {
+      "id": 2570290,
+      "key": "emas.old.home.modal.froze.content"
+    },
+    {
+      "id": 2570407,
+      "key": "easy_invest.why_easy_invest.desc4"
+    },
+    {
+      "id": 2570103,
+      "key": "airpay_coin_cashback"
+    },
+    {
+      "id": 2570096,
+      "key": "airpay_wallet"
+    },
+    {
+      "id": 2570550,
+      "key": "easy_invest.tips_reference_only_reference"
+    },
+    {
+      "id": 2570297,
+      "key": "easy_invest.tips_maintain_balance"
+    },
+    {
+      "id": 2571856,
+      "key": "fund_market.home.new_card_title.1"
+    },
+    {
+      "id": 2570437,
+      "key": "easy_invest.balance.tips3"
+    },
+    {
+      "id": 2570682,
+      "key": "easy_invest.balance.tips2"
+    },
+    {
+      "id": 2570974,
+      "key": "easy_invest.balance.tips1"
+    },
+    {
+      "id": 2571231,
+      "key": "easy_invest.kyc_spay.field.Money_TNC"
+    },
+    {
+      "id": 2572248,
+      "key": "SPay_Invest_SPP_eKYC_frozen"
+    },
+    {
+      "id": 2572244,
+      "key": "SPay_Invest_SPP_eKYC_approved"
+    },
+    {
+      "id": 2570828,
+      "key": "easy_invest.need_verify_email"
+    },
+    {
+      "id": 2570614,
+      "key": "easy_invest.notice.verify_email.content"
+    },
+    {
+      "id": 2570456,
+      "key": "easy_invest.kyc.dialog.infomation_prefilled"
+    },
+    {
+      "id": 2571834,
+      "key": "invest.verify_account.phone_code.format"
+    },
+    {
+      "id": 2571627,
+      "key": "invest.enter_email_address"
+    },
+    {
+      "id": 2572369,
+      "key": "fund_market.tip.must_switch_all"
+    },
+    {
+      "id": 2572435,
+      "key": "fund_market_switch_submission_my_title"
+    },
+    {
+      "id": 2572436,
+      "key": "fund_market_switch_confirmation_my_title"
+    },
+    {
+      "id": 2572437,
+      "key": "fund_market_switch_failed_my_title"
+    },
+    {
+      "id": 2572453,
+      "key": "fund_market_switch_submission_my_content"
+    },
+    {
+      "id": 2572454,
+      "key": "fund_market_switch_confirmation_my_content"
+    },
+    {
+      "id": 2572455,
+      "key": "fund_market_switch_failed_my_content"
+    },
+    {
+      "id": 2572457,
+      "key": "fund_market_transfer_in_my_content"
+    },
+    {
+      "id": 2572458,
+      "key": "fund_market_transfer_out_my_content"
+    },
+    {
+      "id": 2572451,
+      "key": "fund_market_sell_payout_failed_my_content"
+    },
+    {
+      "id": 2572440,
+      "key": "fund_market_transfer_out_my_title"
+    },
+    {
+      "id": 2572439,
+      "key": "fund_market_transfer_in_my_title"
+    },
+    {
+      "id": 2571568,
+      "key": "invest.account.email.verify_email_verify_now"
+    },
+    {
+      "id": 2570215,
+      "key": "airpay"
+    },
+    {
+      "id": 2570120,
+      "key": "easy_invest.why_easy_invest.title4"
+    },
+    {
+      "id": 2570460,
+      "key": "airpay_giro"
+    },
+    {
+      "id": 2571034,
+      "key": "voucher_label_airpay_wallet_only"
+    },
+    {
+      "id": 2570957,
+      "key": "airpay_discount"
+    },
+    {
+      "id": 2570928,
+      "key": "notify.to_refund.credited.airpay"
+    },
+    {
+      "id": 2570587,
+      "key": "easy_invest.tips2"
+    },
+    {
+      "id": 2570435,
+      "key": "fund_market.earning_receive"
+    },
+    {
+      "id": 2570553,
+      "key": "easy_invest.spp_banner.not_opened.content"
+    },
+    {
+      "id": 2571599,
+      "key": "invest.notice.verify_email.content"
+    },
+    {
+      "id": 2571567,
+      "key": "invest.account.email.verify_email_sub_content"
+    },
+    {
+      "id": 2571566,
+      "key": "invest.account.email.verify_email_content"
+    },
+    {
+      "id": 2571565,
+      "key": "invest.account.email.verify_email_title"
+    },
+    {
+      "id": 2570224,
+      "key": "easy_invest.linked.content"
+    },
+    {
+      "id": 2570641,
+      "key": "easy_invest.kyc.tip.email"
+    },
+    {
+      "id": 2570198,
+      "key": "easy_invest.kyc_result.header.need_verify_email"
+    },
+    {
+      "id": 2572536,
+      "key": "invest.register.tnc"
+    },
+    {
+      "id": 2571193,
+      "key": "easy_invest.topup_TnC"
+    },
+    {
+      "id": 2570739,
+      "key": "fund_market.buy_T&C"
+    },
+    {
+      "id": 2572186,
+      "key": "fund_market.factsheet"
+    },
+    {
+      "id": 2571462,
+      "key": "fund_market.fund_details.adjusted_nav_popup_content"
+    },
+    {
+      "id": 2571361,
+      "key": "easy_invest.item.downtime.tomorrow.notice"
+    },
+    {
+      "id": 2571360,
+      "key": "easy_invest.item.downtime.now.notice"
+    },
+    {
+      "id": 2570320,
+      "key": "fund_market.sell_unavailable"
+    },
+    {
+      "id": 2570176,
+      "key": "fund_market.estimate_sell_tip2"
+    },
+    {
+      "id": 2570526,
+      "key": "error.movie_seats_not_available"
+    },
+    {
+      "id": 2570558,
+      "key": "fund_market.estimate_sell_tip1"
+    },
+    {
+      "id": 2570643,
+      "key": "error.utility_service_unavailable"
+    },
+    {
+      "id": 2570258,
+      "key": "fund_market.popular_choice"
+    },
+    {
+      "id": 2571990,
+      "key": "kyc.not_match.default_error"
+    },
+    {
+      "id": 2570836,
+      "key": "shopeepay.discount_promotion_tips_v2"
+    },
+    {
+      "id": 2570455,
+      "key": "fund_market.listing.market"
+    },
+    {
+      "id": 2571933,
+      "key": "invest.easyinvest.redemption_double_check3.title"
+    },
+    {
+      "id": 2571932,
+      "key": "invest.easyinvest.redemption_double_check2.title"
+    },
+    {
+      "id": 2570287,
+      "key": "fund_market.no_holdings"
+    },
+    {
+      "id": 2570126,
+      "key": "go_back_holdings"
+    },
+    {
+      "id": 2570099,
+      "key": "fund_market.sell_unavailable_tips1"
+    },
+    {
+      "id": 2570760,
+      "key": "easy_invest.spp_banner.inactive.content"
+    },
+    {
+      "id": 2570916,
+      "key": "easy_invest.spp_banner.success.content"
+    },
+    {
+      "id": 2571995,
+      "key": "fund_market.indicator.carg_adjusted_3"
+    },
+    {
+      "id": 2570988,
+      "key": "fund_market.chasing_desc"
+    },
+    {
+      "id": 2570623,
+      "key": "fund_market.stable_returns"
+    },
+    {
+      "id": 2570323,
+      "key": "fund_market.chasing_returns"
+    },
+    {
+      "id": 2570387,
+      "key": "easy_invest.instant_withdraw_TnC"
+    },
+    {
+      "id": 2570134,
+      "key": "fund_market.notice.select_risk.content"
+    },
+    {
+      "id": 2570621,
+      "key": "total_cash_refund_amount"
+    },
+    {
+      "id": 2570508,
+      "key": "fund_market.estimated_total_sell"
+    },
+    {
+      "id": 2571998,
+      "key": "fund_market.indicator.max_drawdown_adjusted_3"
+    },
+    {
+      "id": 2571483,
+      "key": "invest.kyc.make_sure_bank_account_name"
+    },
+    {
+      "id": 2570699,
+      "key": "error.bank_account_full_name_not_match"
+    },
+    {
+      "id": 2570578,
+      "key": "easy_invest.linking_popup.content"
+    },
+    {
+      "id": 2570576,
+      "key": "emas.old.home.modal.close.content"
+    },
+    {
+      "id": 2570564,
+      "key": "easy_invest.spp_banner.linked.content"
+    },
+    {
+      "id": 2570609,
+      "key": "easy_invest.spp_banner.linking.content"
+    },
+    {
+      "id": 2570498,
+      "key": "easy_invest.verify_account_hint"
+    },
+    {
+      "id": 2570570,
+      "key": "easy_invest.linking_note.content"
+    },
+    {
+      "id": 2570610,
+      "key": "easy_invest.verify_account.redirect_bibit"
+    },
+    {
+      "id": 2570730,
+      "key": "easy_invest.verify_other_account_hint"
+    },
+    {
+      "id": 2570810,
+      "key": "easy_invest.verify_account.dialog_content.confirm"
+    },
+    {
+      "id": 2570918,
+      "key": "easy_invest.why_easy_invest.desc2"
+    },
+    {
+      "id": 2570095,
+      "key": "fund_market.home.new_card_desc3"
+    },
+    {
+      "id": 2570866,
+      "key": "easy_invest.ojk_approve"
+    },
+    {
+      "id": 2571639,
+      "key": "invest.auto_invest.landing.banner_sub_content"
+    },
+    {
+      "id": 2570600,
+      "key": "fund_market.fund_house"
+    },
+    {
+      "id": 2570421,
+      "key": "fund_market.buy_processing_tips"
+    },
+    {
+      "id": 2570266,
+      "key": "buy_now"
+    },
+    {
+      "id": 2570489,
+      "key": "error.utility_meter_detached"
+    },
+    {
+      "id": 2570484,
+      "key": "error.utility_can_not_pay_after_3PM"
+    },
+    {
+      "id": 2570383,
+      "key": "error.inappropriate_word"
+    },
+    {
+      "id": 2570259,
+      "key": "error.invalid_contact"
+    },
+    {
+      "id": 2570521,
+      "key": "refund_text_3"
+    },
+    {
+      "id": 2570786,
+      "key": "error.utility_customer_not_found"
+    },
+    {
+      "id": 2570296,
+      "key": "error.emoney_balance_exceeded"
+    },
+    {
+      "id": 2570229,
+      "key": "error.utility_no_input_ca"
+    },
+    {
+      "id": 2570195,
+      "key": "easy_invest.linking_popup.title"
+    },
+    {
+      "id": 2570093,
+      "key": "easy_invest.notice.pending_bank"
+    },
+    {
+      "id": 2571632,
+      "key": "auto_invest.notice.deducted_notify"
+    },
+    {
+      "id": 2571785,
+      "key": "auto_invest.add_plan_TnC"
+    },
+    {
+      "id": 2570914,
+      "key": "easy_invest.spp_banner.under_approving.content"
+    },
+    {
+      "id": 2570538,
+      "key": "easy_invest.spp_banner.submitting.content"
+    },
+    {
+      "id": 2571146,
+      "key": "easy_invest.modify_popup.content"
+    },
+    {
+      "id": 2571640,
+      "key": "invest.resubmit_popup.content"
+    },
+    {
+      "id": 2571759,
+      "key": "easy_invest.resubmit_popup.content"
+    },
+    {
+      "id": 2570133,
+      "key": "easy_invest.notice.submitting.content"
+    },
+    {
+      "id": 2571731,
+      "key": "invest.buy_txn_pay_now_popup"
+    },
+    {
+      "id": 2571730,
+      "key": "invest.buy_txn_cancelled_btn_popup"
+    },
+    {
+      "id": 2571475,
+      "key": "easy_invest.tips.preview_adjust_amount"
+    },
+    {
+      "id": 2571476,
+      "key": "fund_market.tips.preview_adjust_unit"
+    },
+    {
+      "id": 2570293,
+      "key": "fund_market.kyc.terms_and_conditions.content"
+    },
+    {
+      "id": 2571757,
+      "key": "easy_invest.otp_verification_popup.content"
+    },
+    {
+      "id": 2571634,
+      "key": "auto_invest.notice.not_paid"
+    },
+    {
+      "id": 2570478,
+      "key": "error.utility_transaction_not_processed"
+    },
+    {
+      "id": 2571307,
+      "key": "easy_invest.force_sell.title"
+    },
+    {
+      "id": 2570385,
+      "key": "error.passenger_name_length"
+    },
+    {
+      "id": 2570269,
+      "key": "sell_to"
+    },
+    {
+      "id": 2570243,
+      "key": "fund_market.sell_in_progress"
+    },
+    {
+      "id": 2570586,
+      "key": "fund_market.trans_submission"
+    },
+    {
+      "id": 2571980,
+      "key": "topup"
+    }
+  ]
+}
